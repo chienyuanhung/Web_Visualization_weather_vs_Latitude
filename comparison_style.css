@@ -7,9 +7,7 @@ h1{
     color: #57BFA7;
 }
 
-h2{
-    color: #57BFA7;
-}
+
 
 .main_body{
     background-color: #F1F1EC;
@@ -25,7 +23,7 @@ h2{
     background-color: #57BFA7;
     position: absolute;
     height: 100%;
-    left: 60px;
+    left: 100px;
     text-align: center;
     margin: auto;
 }

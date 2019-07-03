@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>landing page, ladtitude vs weather parameters</title>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="landing_style.css">
+</head>
+
+<body>
+    <nav class = "navbar navbar-expand-md navbar-light bg-light">
+        <span class ="navbar-brand nav_header">Latitude</span>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-target">
+            <ul class = "navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href='#'>Plots
+                        <span class="caret"></span>
+                    </a>  
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                            <a class="dropdown-item">Max Temperature</a>
+                            <a class="dropdown-item">Humidity</a>
+                            <a class="dropdown-item">Cloudiness</a>
+                            <a class="dropdown-item">Wind Speed</a>
+                        </div>  
+                </li>
+                <li class="nav-item">
+                    <a  class="nav-link" href='#'>Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a  class="nav-link" href='#'>Data</a>
+                </li>
+            </ul>
+        </div>            
+    </nav>        
+    
+    <section class= "main_body">
+        <div class = "container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class = "description">
+                        <br>
+                        <h1>Summary: Latitude vs. X</h1>
+                        <br>
+                        <hr>
+                        <img id = "main_fig" src="Resources/assets/images/Fig1.png" alt="temp_vs_latitude" />
+                        <p>The purpose of thsi project is analyzing how weather changes as you get close to the equator. 
+                            To accomplish this analysis, we first pull data from OpenWeatherMap API to assembly a dataset on over 
+                            500 cities.
+                        </p>
+                        <p>After assembling the dataset, we usedMatplotlib to plot various aspects of the weather vs. latitude. Factors
+                            we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and
+                            visualizations created as part of the analysis, as well as explantations and descriptions of any trends and 
+                            correlation witnessed
+                    
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                        <div class = "description">
+                                <br>
+                                <h2>Visualizations</h2>
+                                <hr>
+                                <a href="#"><img class="figure-1" src="Resources/assets/images/Fig1.png" width="150" height="150" title="temp_vs_lat">
+                                </a>
+                                <a href="#"><img class="figure-2" src="Resources/assets/images/Fig2.png" width="150" height="150" title="humidity_vs_lat">
+                                </a>
+                                <a href="#"><img class="figure-3" src="Resources/assets/images/Fig3.png" width="150" height="150" title="cloudiness_vs_lat">
+                                </a>
+                                <a href="#"><img class="figure-4" src="Resources/assets/images/Fig4.png" width="150" height="150" title="windspeed_vs_lat">
+                                </a>
+                        </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+</body>
+</html>

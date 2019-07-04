@@ -1,44 +1,65 @@
+body{
+    background-color: #F1F1EC;
+}
+
 .description{
     background-color: white;
     margin-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px
 }
 
+.figure{
+    width: 110px;
+    height: 110px;
+}
 h1{
     color: #57BFA7;
+    font-family: "Times New Roman", Times, serif;
 }
 
 h2{
     color: #57BFA7;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.main_body{
-    background-color: #F1F1EC;
-}
 
 #main_fig{
     float: left;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
-.navbar-brand {
+.navbar-brand{
     background-color: #57BFA7;
+    font-family: "Times New Roman", Times, serif;
     position: absolute;
-    height: 100%;
+    height: 60px;
     left: 60px;
+    top: 0px;
     text-align: center;
     margin: auto;
 }
 
 .navbar-light .navbar-brand{
     color: white;
-    font-size: 30px;
+    font-size: 30px;  
+}
+
+.navbar-toggle {
+    position: absolute;
+    right: 20px;
+    z-index:3;
 }
 
 .nav_link{
     color: black   
 }
 
+p{
+    margin: 10px;
+    margin-bottom: 10px;
+}
 .small_br{   
     display: block;
     margin: 2px 0;    

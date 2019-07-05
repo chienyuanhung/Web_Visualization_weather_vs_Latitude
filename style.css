@@ -9,20 +9,51 @@ body{
     padding-bottom: 10px
 }
 
+.description2{
+    background-color: white;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px
+}
+
+.description3{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 10px
+}
+
+#fig{
+    width: 600px;
+    height: 400px;
+
+}
 .figure{
     width: 110px;
     height: 110px;
 }
+
+.figure_c{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    left: 10%;
+}
+
 h1{
-    color: #57BFA7;
+    color: #2BBBAD;
     font-family: "Times New Roman", Times, serif;
 }
 
 h2{
-    color: #57BFA7;
+    color: #2BBBAD;
     font-family: "Times New Roman", Times, serif;
 }
 
+h3{
+    color: #2BBBAD;
+    font-family: "Times New Roman", Times, serif;
+}
 
 #main_fig{
     float: left;
@@ -31,7 +62,7 @@ h2{
 }
 
 .navbar-brand{
-    background-color: #57BFA7;
+    background-color: #2BBBAD;
     font-family: "Times New Roman", Times, serif;
     position: absolute;
     height: 60px;

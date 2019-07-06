@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class = "navbar navbar-expand-md navbar-light bg-light">
+    <nav class = "navbar navbar-expand-sm navbar-light bg-light">
         <span class ="navbar-brand">Latitude</span>
         <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#collapse-target">
             <span class="navbar-toggler-icon"></span>
@@ -23,18 +23,18 @@
                     <a  class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href='#'>Plots
                         <span class="caret"></span>
                     </a>  
-                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                            <a class="dropdown-item">Max Temperature</a>
-                            <a class="dropdown-item">Humidity</a>
-                            <a class="dropdown-item">Cloudiness</a>
-                            <a class="dropdown-item">Wind Speed</a>
-                        </div>  
+                    <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                        <a href="visualization_max_temp.html" class="dropdown-item">Max Temperature</a>
+                        <a href="visualization_humidity.html" class="dropdown-item">Humidity</a>
+                        <a href="visualization_cloudiness.html" class="dropdown-item">Cloudiness</a>
+                        <a href="visualization_wind_speed.html" class="dropdown-item">Wind Speed</a>
+                    </div>  
                 </li>
                 <li class="nav-item">
-                    <a  class="nav-link" href='#'>Comparison</a>
+                    <a  class="nav-link" href='comparison.html'>Comparison</a>
                 </li>
                 <li class="nav-item">
-                    <a  class="nav-link" href='#'>Data</a>
+                    <a  class="nav-link" href='data.html'>Data</a>
                 </li>
             </ul>
         </div>            
@@ -49,7 +49,7 @@
                         <h1>Wind Speed</h1>
                         <br>
                         <hr>
-                        <img id = "fig" src="Resources/assets/images/Fig4.png" alt="temp_vs_latitude" />
+                        <img id = "fig" src="Resources/assets/images/Fig4.png" class="figure-img img-fluid" alt="temp_vs_latitude" />
                         <p>The wind speed are not clearly related to the latitude. But some high windspeed data were recorded
                             at higher latitude (40-80 degree) at north hemispheres).</p>
                         

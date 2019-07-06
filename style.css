@@ -65,7 +65,7 @@ h3{
     background-color: #2BBBAD;
     font-family: "Times New Roman", Times, serif;
     position: absolute;
-    height: 60px;
+    height: 100%;
     left: 60px;
     top: 0px;
     text-align: center;
@@ -94,4 +94,25 @@ p{
 .small_br{   
     display: block;
     margin: 2px 0;    
+}
+
+a:hover {
+    background-color:darkgrey;
+  }
+
+
+@media (max-width: 600px){
+    .navbar{
+        background-color: #2BBBAD !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .navbar-collapse{
+        position: relative;
+        background-color: white !important;
+        top: 10px;
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+    }
+    }
 }

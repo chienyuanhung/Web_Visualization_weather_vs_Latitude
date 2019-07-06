@@ -33,12 +33,6 @@ body{
     height: 110px;
 }
 
-.figure_c{
-    position: relative;
-    width: 400px;
-    height: 300px;
-    left: 10%;
-}
 
 h1{
     color: #2BBBAD;
@@ -101,7 +95,7 @@ a:hover {
   }
 
 
-@media (max-width: 600px){
+@media (max-width: 768px){
     .navbar{
         background-color: #2BBBAD !important;
         padding-left: 0px !important;

@@ -1,6 +1,6 @@
 # Web_Visualization_weather_vs_Latitude
 
-* Web pages for showing the results of analysis of how latitudes affect diffenent weather conditions. including maximumm temperature, humidity, cloudiness and wind speed. 
+* Web pages for showing the results of the analysis of how latitudes affect diffenent weather conditions. including maximumm temperature, humidity, cloudiness and wind speed. 
 
 * link to the webpage: https://chienyuanhung.github.io/Web_Visualization_weather_vs_Latitude/
 
